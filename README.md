@@ -6,4 +6,4 @@ The LEGO hub is running pybrick so code is in fact micropython but it is essenti
 
 A video of the first working version:
 
-https://youtu.be/Hfm57CDRKeg
+[![LEGO Tic Tac Toe Robot](https://img.youtube.com/vi/Hfm57CDRKeg/0.jpg)](https://youtu.be/Hfm57CDRKeg)
