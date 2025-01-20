@@ -2,7 +2,7 @@
 
 This is a LEGO Robot I made to put in use a python script I made in a python course.
 
-The LEGO hub is running pybrick so code is in fact micropython but it is essentially the same.
+The LEGO hub is running [pybricks](https://pybricks.com/) so code is in fact micropython but it is essentially the same.
 
 A video of the first working version:
 
