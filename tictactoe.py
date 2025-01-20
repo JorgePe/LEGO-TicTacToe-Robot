@@ -1,26 +1,24 @@
 # versions:
-#   v2:     user input without IDE
-#   v2.1:   add motor to point to winner (suggested by my #1)
+#   v3.0:   detects free cells in player storage column before returning
+#             player used bricks back to initial arrangement
+#           when dropping a magnet move to next line instead of line above
+#             (more stable and all lines work equally)
+#   v2.3:    reverse tiles over magnets instead of 2 plates
+#             so adjust some z values
+#           random choose who starts
+#           code refactoring
 #   v2.2:   faster and also reduce time lowering magnet by
 #             splitting action in 2 movements:
 #             - first move down fast to target angle just above brick
 #             - then move down until stall 
 #           use pointer to also show who is next
 #           use LED
-#   v2.3:    reverse tiles over magnets instead of 2 plates
-#             so adjust some z values
-#           random choose who starts
-#           code refactoring
-#   v3.0:   detects free cells in player storage column before returning
-#             player used bricks back to initial arrangement
-#           when dropping a magnet move to next line instead of line above
-#             (more stable and all lines work equally)
+#   v2.1:   add motor to point to winner (suggested by my #1)
+#   v2:     user input without IDE
 #
 # notes:
 #           had to replace Y motor, Technic XL for Education Large
 #             beause Y would increasingly move slow for positive directions
-#             ( but not with negative ?? )
-#             does not happen with manual control (non-smart hub)
 
 # game flow:
 #   - start and finish each move at rest_pos
