@@ -1,4 +1,5 @@
 # versions:
+#   v3.1:   -
 #   v3.0:   detects free cells in player storage column before returning
 #             player used bricks back to initial arrangement
 #           when dropping a magnet move to next line instead of line above
